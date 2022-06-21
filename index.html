@@ -31,10 +31,7 @@
     </head>
 
 <body>
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-    
+
     <!-- Navbar Start -->
     <header id="topnav" class="defaultscroll sticky nav-sticky">
         <div class="container">
@@ -423,10 +420,17 @@
     </footer>
     <!--end footer-->
     <!-- Footer End -->
+
+    <!--Loading Screen Animation-->
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>  
+
     <!-- Back to top -->
     <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
     <!-- Back to top -->
     <!-- javascript -->
+
     <script>
         $(window).on("load",function(){
           $(".loader-wrapper").fadeOut("slow");
